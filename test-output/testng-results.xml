@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-29T16:41:37 CEST" name="Open Cart Test Refression PW Suite" finished-at="2024-05-29T16:42:13 CEST" duration-ms="35609">
+    <groups>
+    </groups>
+    <test started-at="2024-05-29T16:41:37 CEST" name="Open Cart Login Page Test" finished-at="2024-05-29T16:41:43 CEST" duration-ms="5930">
+      <class name="com.OpenCart.tests.LoginPageTests">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.OpenCart.tests.LoginPageTests@6d1ef78d]" started-at="2024-05-29T16:41:37 CEST" name="setupTest" finished-at="2024-05-29T16:41:42 CEST" duration-ms="4798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="login()[pri:1, instance:com.OpenCart.tests.LoginPageTests@6d1ef78d]" started-at="2024-05-29T16:41:42 CEST" name="login" finished-at="2024-05-29T16:41:43 CEST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="forgotPasswordLinkVisibility()[pri:2, instance:com.OpenCart.tests.LoginPageTests@6d1ef78d]" started-at="2024-05-29T16:41:43 CEST" name="forgotPasswordLinkVisibility" finished-at="2024-05-29T16:41:43 CEST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswordLinkVisibility -->
+        <test-method signature="appLoginTest()[pri:3, instance:com.OpenCart.tests.LoginPageTests@6d1ef78d]" started-at="2024-05-29T16:41:43 CEST" name="appLoginTest" finished-at="2024-05-29T16:41:43 CEST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLoginTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.OpenCart.tests.LoginPageTests@6d1ef78d]" started-at="2024-05-29T16:41:43 CEST" name="tearDownTest" finished-at="2024-05-29T16:41:43 CEST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="cleanUpReportFiles()[pri:0, instance:com.OpenCart.tests.LoginPageTests@6d1ef78d]" started-at="2024-05-29T16:42:13 CEST" name="cleanUpReportFiles" finished-at="2024-05-29T16:42:13 CEST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpReportFiles -->
+      </class> <!-- com.OpenCart.tests.LoginPageTests -->
+    </test> <!-- Open Cart Login Page Test -->
+    <test started-at="2024-05-29T16:41:37 CEST" name="Open Cart Home Page Test" finished-at="2024-05-29T16:42:13 CEST" duration-ms="35609">
+      <class name="com.OpenCart.tests.HomePageTests">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.OpenCart.tests.HomePageTests@a87f8ec]" started-at="2024-05-29T16:41:37 CEST" name="setupTest" finished-at="2024-05-29T16:41:43 CEST" duration-ms="5291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.OpenCart.tests.HomePageTests@a87f8ec]" started-at="2024-05-29T16:41:43 CEST" name="homePageTitleTest" finished-at="2024-05-29T16:41:43 CEST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="homePageURLTest()[pri:0, instance:com.OpenCart.tests.HomePageTests@a87f8ec]" started-at="2024-05-29T16:41:43 CEST" name="homePageURLTest" finished-at="2024-05-29T16:41:43 CEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageURLTest -->
+        <test-method signature="searchTest()[pri:0, instance:com.OpenCart.tests.HomePageTests@a87f8ec]" started-at="2024-05-29T16:41:43 CEST" name="searchTest" finished-at="2024-05-29T16:42:13 CEST" duration-ms="30005" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/progress.js:78:26)
+    at Frame.fill (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/frames.js:1052:23)
+    at FrameDispatcher.fill (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/dispatchers/frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/dispatchers/dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name='search1']")
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/progress.js:78:26)
+    at Frame.fill (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/frames.js:1052:23)
+    at FrameDispatcher.fill (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/dispatchers/frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/dispatchers/dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name='search1']")
+
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:120)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:130)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:106)
+at com.microsoft.playwright.impl.FrameImpl.fillImpl(FrameImpl.java:335)
+at com.microsoft.playwright.impl.PageImpl.lambda$fill$28(PageImpl.java:756)
+at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:89)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+at com.microsoft.playwright.impl.PageImpl.fill(PageImpl.java:755)
+at com.microsoft.playwright.Page.fill(Page.java:4790)
+at com.OpenCart.pages.HomePage.searchForProducts(HomePage.java:37)
+at com.OpenCart.tests.HomePageTests.searchTest(HomePageTests.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/progress.js:78:26)
+    at Frame.fill (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/frames.js:1052:23)
+    at FrameDispatcher.fill (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/dispatchers/frameDispatcher.js:170:30)
+    at FrameDispatcher._handleCommand (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/dispatchers/dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (/private/var/folders/95/w06hfx957_g1200gbshtlgkm0000gn/T/playwright-java-1863833579475134304/package/lib/server/dispatchers/dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("input[name='search1']")
+
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:254)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:211)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:118)
+... 34 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.OpenCart.tests.HomePageTests@a87f8ec]" started-at="2024-05-29T16:42:13 CEST" name="tearDownTest" finished-at="2024-05-29T16:42:13 CEST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.OpenCart.tests.HomePageTests -->
+    </test> <!-- Open Cart Home Page Test -->
+  </suite> <!-- Open Cart Test Refression PW Suite -->
+</testng-results>
